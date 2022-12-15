@@ -187,8 +187,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* set display setting to "none" to make it similar as the sample page*/ 
 .footer {
+    display: none;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -198,3 +199,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/**/
