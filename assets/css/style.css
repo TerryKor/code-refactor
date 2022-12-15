@@ -86,80 +86,36 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*to refactor the code I put 3 differnet style classes of benefits(lead,brand,cost) into 1 class "benefits"*/ 
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* to refactor the code I put 3 differnet style classes of h3 into 1 class ".benefits h3"*/ 
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*to refactor the code I put 3 differnt image properties into 1 class .benefits img */
+.benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* to refactor the code I put 3 different main section into 1 main section*/
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -173,20 +129,13 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/* put together three different h2 into one class .content h2*/ 
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* set display setting to "none" to make it similar as the sample page*/ 
 .footer {
     display: none;
@@ -196,7 +145,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* changed h3 to h4 to follow semantic structure of HTML*/
+.footer h4 {
     font-size: 20px;
 }
-/**/
