@@ -20,7 +20,7 @@ Please follow the link:
 
 ## Screenshot
 
-![Screenshot](assets\images\project screenshot.png)
+https://github.com/TerryKor/code-refactor/blob/main/assets/images/project%20screenshot.png
 
 ## License
 
